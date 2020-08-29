@@ -1,0 +1,713 @@
+*{
+    margin:0px;
+    padding:0px;
+    /* box-sizing: border-box; */
+    /* background-color: rgb(9, 161, 161); */
+    z-index: 9999999;
+}
+
+/*- this section is for the Home styling-*/
+body{
+    overflow-x: hidden;
+    /* z-index: 9999999; */
+    background-color: rgb(9, 161, 161);
+}
+
+
+
+header{
+    display: flex;
+    /* background-color: rgba(0, 0, 0, 0.712); */
+    padding-bottom: 0px;
+    width: 120%;
+    /* box-shadow: 0px 8px  16px 0px rgba(0, 0, 0, 0.2); */
+    /* z-index: 9; */
+}
+
+.boca-header-container, img{
+    margin-left:10px;
+    font-family: bestlife;
+    height:200px;
+}
+
+img{
+    padding-left: 80px;
+    height:130px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+nav{
+    /* widows: 5px; */
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-left:15%;
+    height: 40%;
+    box-shadow: 0px 8px  16px 0px rgba(0, 0, 0, 0.5);   
+}
+
+
+nav ul li {
+    float:left;
+    list-style-type: none;
+    margin-right:25px;
+}
+
+nav ul li a{
+    display: block;
+    padding:30px 8px 5px 18px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 30px;
+    background-color: white;
+    color: rgb(9, 161, 161);
+    padding-top: 20px;
+    
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.boca-img-1_bg{
+    position: absolute;
+    background-image:url('../images/cloth_1.jpg');
+    width: 75%;
+    height:80vh;
+    background-color: white;
+    margin:10px;
+    margin-left: 13%;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 40px 40px 40px 40px;
+    background-size: 100% 100%;
+    }
+
+    .text_1{
+        width: 60%;
+        margin-top: 45%;
+        margin-left: 18%;
+        /* background-color: black; */
+    }
+
+    .p-text_1{
+        color: #ffffff;
+        font-size: 30px;
+        text-align: center;
+        padding:1px 1px 1px 1px;
+        line-height: 30px;
+    }
+
+    .available_wear{
+        width: 80%;
+        height: 50vh;
+        display: flex;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    .avai-wear_1, .avai-wear_2, .avai-wear_3 {
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-top: 5%;
+        background-color: #ffff;
+    }
+
+    .avai-wear_1{
+        background-image:url(../images/cloth_2.jpg);
+        object-fit:scale-down;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .avai-wear_2{
+        background-image:url(../images/cloth_3.jpg);
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    .avai-wear_3{
+        background-image:url(../images/cloth_4.jpg);
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .available_wear_text{
+        width: 80%;
+        height: 5vh;
+        display: flex;
+        margin-left: 10%;
+        margin-top: 0%;
+        position: relative;
+        /* border: 1px solid black; */
+    }
+
+    .avai-wear_text_1, .avai-wear_text_2, .avai-wear_text_3{
+        width: 30%;
+        height: 4vh;
+        border: 2px solid white;
+        /* background-color: #ffffff; */
+        margin-right: 6%;
+        margin-bottom: 0%;
+        margin-left: 6%;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 24px;
+        color: white;
+    }
+
+    .credit{
+        width: 100%;
+        height: 12vh;
+        position: absolute;
+        background-color:magenta;
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        margin-top: 50px;
+    }
+
+ hr{
+     width: 70%;
+     margin-left: 180px;
+ }
+
+
+
+
+
+
+
+
+
+
+ 
+ /*- this section is for the Menu styling-*/
+
+ .menu_body{
+     height: 200vh;
+     width: 100%;
+     background-color: magenta;
+     box-sizing: border-box;
+ }
+
+ .credit_menu{
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    background-color: rgb(9, 161, 161);
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-top: 20%;
+ }
+
+ .menu_selected_nav{
+     width: 150px;
+     height: 25vh;
+     background-color: rgb(9, 161, 161);
+     margin-left: 30%;
+     text-align: center;
+     font-size: 40px;
+     font-weight: bolder;
+     color: white;
+     text-decoration: none;
+     list-style-type: none;
+ }
+
+ .menu_selected_nav a{
+    text-decoration: none;
+    list-style-type: none;
+    color: magenta;
+ }
+
+
+ .menu_selected_nav:hover{
+    background-color: white;
+    color: magenta;
+}
+
+
+.menu_pic_box{
+    width: 80%;
+    height: 60vh;
+    /* background-color: white; */
+    position: absolute;
+    display: flex;
+    margin-left: 10%;
+    
+    /* margin-left: 10%; */
+}
+
+.menu_pic_1, .menu_pic_2 {
+    width: 30%;
+    height: 50vh;
+    /* border: 1px solid black; */
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-right: 20%;
+    margin-top: 5%;
+}
+
+.menu_pic_1{
+    background-image:url(../images/cloth_2.jpg);
+    /* object-fit:scale-down; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: white;
+}
+
+.menu_pic_2{
+    background-image:url(../images/cloth_3.jpg);
+    /* object-fit:scale-down; */
+    background-repeat: no-repeat;
+    background-position: ;
+    /* border: 1px solid black; */
+    background-size: 100% 100%;
+}
+
+
+.menu_pic_box_2{
+    width: 80%;
+    height: 20vh;
+    margin-top: 40%;
+    margin-bottom: 0;
+    background-color: white
+    position: absolute;
+    display: flex;   
+    margin-left: 10%;
+    border: 1px solid magenta;
+    /* margin-left: 10%; */
+}
+
+.menu_pic_3, .menu_pic_4  {
+    width: 30%;
+    height: 50vh;
+    /* border: 1px solid black; */
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-right: 20%;
+}
+
+.menu_pic_3{
+    background-image:url(../images/cloth_5.jpg);
+    /* object-fit:scale-down; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: white;
+}
+
+.menu_pic_4{
+    background-image:url(../images/cloth_4.jpg);
+    /* object-fit:scale-down; */
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-color: white;
+    background-size: 100% 100%;
+}
+
+
+.available_pic_text{
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 75%;
+    height: 7vh;
+    margin-top: 33%;
+    margin-left: 13%;
+    display:flex;
+}
+
+.menu-pic_text_1, .menu-pic_text_2{
+    position: relative;
+    /* margin-left: 10; */
+}
+
+.menu-pic_text_1{
+    text-align: center;
+    border: 3px solid white;
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    font-size: 24px;
+    color: white;
+    padding-top: 13px;
+    font-weight: bold;
+}
+.menu-pic_text_2{
+    text-align: center;
+    border: 3px solid white;
+    width: 30%;
+    margin-left: 240px;
+    border-radius: 20px;
+    font-size: 24px;
+    color: white;
+    padding-top: 13px;
+    font-weight: bold;
+}
+
+    
+.available_pic_text_1{
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 75%;
+    height: 7vh;
+    margin-top: 18%;
+    margin-left: 13%;
+    display:flex;
+}
+
+.menu-pic_text_3, .menu-pic_text_4{
+    position: relative;
+    /* margin-left: 10; */
+}
+
+.menu-pic_text_3{
+    text-align: center;
+    border: 3px solid white;
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 20px;
+    font-size: 24px;
+    color: white;
+    padding-top: 13px;
+    font-weight: bold;
+}
+.menu-pic_text_4{
+    text-align: center;
+    border: 3px solid white;
+    width: 30%;
+    margin-left: 240px;
+    border-radius: 20px;
+    font-size: 24px;
+    color: white;
+    padding-top: 13px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/*- this section is for the about styling-*/
+.about_body{
+    height: 150vh;
+    width: 100%;
+    background-image: url(../images/about_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_selected_nav{
+    width: 150px;
+    height: 25vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 60%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: magenta;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.about_selected_nav a{
+   text-decoration: none;
+   list-style-type: none;
+   color: magenta;
+}
+
+
+.about_selected_nav:hover{
+   background-color: magenta;
+   color: white;
+}
+
+.about_selected_nav a:hover{
+    color: white;
+ }
+ 
+
+
+.about_pic_box{
+   width: 100%;
+   height: 10vh;
+   /* background-color: white; */
+   position: absolute;
+   display: flex;
+   margin-left: 0%;
+   
+   /* margin-left: 10%; */
+}
+
+
+credit{
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    background-color:magenta;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+hr{
+ width: 70%;
+ margin-left: 180px;
+}
+
+.credit_about{
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    background-color: magenta;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 0%;
+ }
+ 
+.about_text_box_nav{
+    width: 60%;
+    height: 60vh;
+    padding-top: 30%;
+    margin: 0% auto;    
+    z-index: -1;
+    background-image: url(../images/about_text_box.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.abt_nav{
+        background-color: #ffffff;
+        margin-left:15%;
+        height: 15%;
+        width: 70%; 
+        margin-top: -40%;
+    }
+    
+    
+    abt_nav ul li {
+        float:left;
+        list-style-type: none;
+        margin-right:15px;
+    }
+    
+    nav ul li a{
+        display: block;
+        padding:30px 2px 5px 28px;
+        margin-left: 20%;
+        text-decoration: none;
+        color:#fff;
+        font-size: 35px;
+        background-color: white;
+        color: rgb(9, 161, 161);
+        padding-top: 8px;
+        
+    }
+    
+    nav ul li a:hover{
+        color: red;
+    }
+
+    span{
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        border: 1px solid white;
+        width: 5%;
+        margin: 40% auto;
+        position: relative;
+        z-index: -1;
+    }
+
+    span p{
+        width: 70%;
+        margin: 12% auto;
+        position: relative;
+        z-index: 1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*- this section is for the call styling-*/
+.call_body{
+    height: 150vh;
+    width: 100%;
+    background-image: url(../images/call_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.call_selected_nav{
+    width: 150px;
+    height: 25vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 60%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: magenta;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.call_selected_nav a{
+   text-decoration: none;
+   list-style-type: none;
+   color: magenta;
+}
+
+
+.call_selected_nav:hover{
+   background-color: magenta;
+   color: white;
+}
+
+.call_selected_nav a:hover{
+    color: white;
+ }
+ 
+
+
+.call_pic_box{
+   width: 100%;
+   height: 10vh;
+   /* background-color: white; */
+   position: absolute;
+   display: flex;
+   margin-left: 0%;
+   
+   /* margin-left: 10%; */
+}
+
+
+credit{
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    background-color:magenta;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+hr{
+ width: 70%;
+ margin-left: 180px;
+}
+
+.credit_call{
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    background-color: magenta;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 0%;
+ }
+ 
+.call_text_box_nav{
+    width: 60%;
+    height: 60vh;
+    padding-top: 30%;
+    margin: 0% auto;    
+    z-index: -1;
+    background-image: url(../images/call_text_box.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.call_nav{
+        background-color: #ffffff;
+        margin-left:15%;
+        height: 15%;
+        width: 70%; 
+        margin-top: -40%;
+    }
+    
+    
+    call_nav ul li {
+        float:left;
+        list-style-type: none;
+        margin-right:15px;
+    }
+    
+    nav ul li a{
+        display: block;
+        padding:30px 2px 5px 28px;
+        margin-left: 20%;
+        text-decoration: none;
+        color:#fff;
+        font-size: 35px;
+        background-color: white;
+        color: rgb(9, 161, 161);
+        padding-top: 8px;
+        
+    }
+    
+    nav ul li a:hover{
+        color: red;
+    }
+
+    span{
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        border: 1px solid white;
+        width: 5%;
+        margin: 40% auto;
+        position: relative;
+        z-index: -1;
+    }
+
+    span p{
+        width: 70%;
+        margin: 12% auto;
+        position: relative;
+        z-index: 1;
+    }
